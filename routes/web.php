@@ -16,8 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', [
-    LoadPages::class, 'index'
-]);
+Route::get('/', [LoadPages::class, 'index']);
+
 
 
